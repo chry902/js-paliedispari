@@ -1,13 +1,13 @@
 
 
-var stringa = revString("radaR");
+let stringa = revString("radaR");
 
 function revString(str) {
-    var splString = str.split("");
+    let splString = str.split("");
     //controlliamo se la stringa e stata inserita correttamente 
     console.log(splString);
 
-    var revArray = splString.reverse();
+    let revArray = splString.reverse();
     //controlliamo se la stringa è stata invertita
     console.log(revArray);
 
@@ -16,4 +16,4 @@ function revString(str) {
 }
 
 //controlliamo se la stringa e stata riassemblata
-console.log("revArray");
+console.log(`${stringa}`);
